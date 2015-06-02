@@ -1,0 +1,31 @@
+{
+  "name": "visual-diff",
+  "version": "0.0.1",
+  "description": "Visual diff two websites",
+  "main": "index.js",
+  "dependencies": {
+    "minimist": "^1.1.1",
+    "node-resemble-js": "0.0.4",
+    "opn": "^1.0.2",
+    "parallelize": "^2.2.0",
+    "webshot": "^0.16.0"
+  },
+  "devDependencies": {},
+  "bin": {
+    "visual-diff": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alessioalex/visual-diff.git"
+  },
+  "keywords": [
+    "diff",
+    "visual",
+    "visual-diff"
+  ],
+  "author": "Alexandru Vladutu",
+  "license": "MIT"
+}
